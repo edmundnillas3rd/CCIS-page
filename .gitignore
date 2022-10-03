@@ -1,0 +1,5 @@
+# Node Directories
+node_modules/
+
+# Nextjs Directories
+.next/
