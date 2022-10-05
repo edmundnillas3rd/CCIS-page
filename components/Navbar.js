@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <ul>
+    <ul className="flex-container navbar">
       <li>
         <Link href="/">
-          <a>Home</a>
+          <a className="link link-highlight">Home</a>
         </Link>
       </li>
       <li>
         <Link href="/about">
-          <a>About</a>
+          <a className="link link-highlight">About</a>
         </Link>
       </li>
     </ul>
