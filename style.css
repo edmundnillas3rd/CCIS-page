@@ -12,9 +12,6 @@
   --fg-color: #f2f4f5;
 }
 
-hr.solid {
-}
-
 a,
 a:link,
 a:visited,
@@ -26,6 +23,11 @@ a:hover {
 li {
   list-style: none;
   justify-content: center;
+}
+
+.vl {
+  border-left: 1px solid var(--fg-color);
+  height: 220px;
 }
 
 #vanta {
@@ -72,5 +74,21 @@ li {
 }
 
 .container {
+  justify-content: center;
+  align-items: center;
   color: var(--fg-color);
+  gap: 12px;
+  border: 1px solid var(--fg-color);
+  border-radius: 8px;
+  backdrop-filter: blur(0.1rem);
+}
+
+.title-container {
+  padding: 0 12px;
+  width: 100%;
+  height: 45vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
 }
