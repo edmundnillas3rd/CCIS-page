@@ -3,7 +3,7 @@ import NET from "vanta/dist/vanta.net.min.js";
 
 import * as THREE from "three";
 
-export default function Backround({ width, height, children }) {
+export default function Backround({ children }) {
   const [vantaEffect, setVantaEffect] = useState(0);
 
   const vantaRef = useRef(null);
@@ -17,12 +17,12 @@ export default function Backround({ width, height, children }) {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: height,
-          minWidth: width,
+          minHeight: 200.0,
+          minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
-          color: 0x22f2be,
-          backgroundColor: 0x1f1c28,
+          color: 0x1fe688,
+          backgroundColor: 0x1a2222,
           points: 5.0,
           maxDistance: 16.0,
           spacing: 20.0,

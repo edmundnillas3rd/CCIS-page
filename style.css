@@ -12,6 +12,9 @@
   --fg-color: #f2f4f5;
 }
 
+hr.solid {
+}
+
 a,
 a:link,
 a:visited,
@@ -23,6 +26,16 @@ a:hover {
 li {
   list-style: none;
   justify-content: center;
+}
+
+#vanta {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: contain no-repeat;
+  width: 100%;
+  height: 500px;
 }
 
 .flex-container {
@@ -56,4 +69,8 @@ li {
   background-color: var(--fg-color);
   border-radius: 5px;
   height: auto;
+}
+
+.container {
+  color: var(--fg-color);
 }
