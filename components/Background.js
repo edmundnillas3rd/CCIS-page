@@ -12,8 +12,8 @@ export default function Backround({ children }) {
     if (!vantaEffect) {
       setVantaEffect(
         NET({
-          THREE,
           el: vantaRef.current,
+          THREE: THREE,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
