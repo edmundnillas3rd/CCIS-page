@@ -1,5 +1,5 @@
 {
-  "name": "ccis-page",
+  "name": "ccis-cjc-page",
   "version": "1.0.0",
   "description": "This is the front end page for College of Computing and Information Sciences of Cor Jesu College of Digos",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "prettier": "^2.7.1"
   }
 }
