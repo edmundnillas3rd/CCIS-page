@@ -50,6 +50,24 @@ export default function Home() {
           <div>There are no events for this month</div>
         )}
       </Calendar>
+      <div className="flex-container announcement-content">
+        <h3>Announcements</h3>
+        <p>
+          Sed vestibulum mollis est, quis sagittis urna porttitor ac. Donec
+          volutpat placerat urna, ac aliquet purus sodales eget. Vestibulum
+          porta turpis in libero aliquam porta. Duis maximus pharetra nibh, et
+          accumsan est facilisis at. In in congue massa. Suspendisse egestas
+          vitae nunc et semper. Aliquam hendrerit, tortor non laoreet interdum,
+          magna dolor sodales augue, at consequat libero tortor sed dolor. Fusce
+          sed ullamcorper ante, in dictum tortor. Ut tincidunt massa feugiat,
+          faucibus erat ut, placerat nibh. Aenean nibh tortor, aliquet ut
+          dignissim ac, aliquam auctor lectus. Curabitur lobortis, justo sed
+          lobortis viverra, mi lacus aliquet nisi, sit amet venenatis turpis
+          orci ut ex. Ut nunc odio, egestas eu tempor sed, commodo ac est. Orci
+          varius natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec blandit sit amet dui eu hendrerit.
+        </p>
+      </div>
     </div>
   );
 }

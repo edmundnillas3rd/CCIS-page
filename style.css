@@ -8,6 +8,7 @@
 }
 
 :root {
+  --alt-bg-color: #1a2222;
   --bg-color: #1f7594;
   --fg-color: #f2f4f5;
 }
@@ -128,5 +129,14 @@ li {
 
 .dates {
   flex-direction: column;
+  gap: 24px;
+}
+
+.announcement-content {
+  background: var(--alt-bg-color);
+  color: var(--fg-color);
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
   gap: 24px;
 }
