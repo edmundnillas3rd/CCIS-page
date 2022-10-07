@@ -86,6 +86,13 @@ li {
   box-sizing: border-box;
 }
 
+@media (max-width: 600px) {
+  .head-main-content {
+    backdrop-filter: blur(0.2rem);
+    box-sizing: border-box;
+  }
+}
+
 .card-container {
   min-height: 200px;
   height: 220px;

@@ -9,19 +9,19 @@ export default function Home() {
   useEffect(() => {
     setEvents((eventArr) => [
       ...eventArr,
-      {
-        key: 12,
-        title: "Foundation Day kunuhay",
-        info: "Lorem ipsum dolor sit amet",
-        dayOfMonth: 4,
-        dayOfWeek: "Tuesday",
-      },
+      // {
+      //   key: 12,
+      //   title: "Foundation Day kunuhay",
+      //   info: "63rd founding anniversary",
+      //   dayOfMonth: 30,
+      //   dayOfWeek: "Tuesday",
+      // },
       {
         key: 24,
-        title: "CCIS Event",
-        info: "Aliquam aliquam orci sed erat scelerisque varius",
-        dayOfMonth: 8,
-        dayOfWeek: "Saturday",
+        title: "CCIS Acquiantance Party",
+        info: "Acquiantance and Cosplay Event",
+        dayOfMonth: 7,
+        dayOfWeek: "Friday",
       },
     ]);
   }, []);
