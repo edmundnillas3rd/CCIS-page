@@ -45,6 +45,10 @@ li {
   display: flex;
 }
 
+.home {
+  flex-direction: column;
+}
+
 .header {
   position: sticky;
   z-index: 10;
@@ -95,7 +99,9 @@ li {
 
 .card-container {
   min-height: 200px;
-  height: 220px;
+  min-width: 190px;
+  max-width: 250px;
+  height: 100px;
   padding: 0 2.5rem;
   align-items: center;
   color: var(--fg-color);
@@ -119,6 +125,8 @@ li {
 .right-card-content {
   justify-content: center;
   align-items: center;
+  min-width: 25px;
+  max-width: 50px;
 }
 
 .right-card-content > h6 {
@@ -134,9 +142,10 @@ li {
   background: var(--bg-color);
 }
 
-.dates {
-  flex-direction: column;
-  gap: 24px;
+.event-container {
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 36px;
 }
 
 .announcement-container {
@@ -146,4 +155,22 @@ li {
   align-items: center;
   padding: 2rem 5rem;
   gap: 24px;
+}
+
+.post-list-container {
+  gap: 64px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.post {
+  min-width: 200px;
+  max-width: 250px;
+  border: 1px solid var(--fg-color);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
+
+.post:hover > * {
+  color: var(--bg-color);
 }
