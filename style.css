@@ -2,7 +2,7 @@
 
 * {
   font-family: "Roboto", monospace;
-  font-size: 18px;
+  font-size: 14px;
   padding: 0;
   margin: 0;
 }
@@ -88,6 +88,7 @@ li {
 .webpage-title-container {
   display: flex;
   padding: 0 50px;
+  font-size: 16rem;
   justify-content: center;
   box-sizing: border-box;
 }
@@ -99,10 +100,22 @@ li {
   }
 }
 
+.title-container {
+  height: 50%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.title-container > h3 {
+  font-size: 1.5rem;
+}
+
 .card-container {
   min-height: 200px;
-  min-width: 190px;
-  max-width: 250px;
+  min-width: 200px;
+  max-width: 290px;
+  width: 290px;
   height: 100px;
   padding: 0 2.5rem;
   align-items: center;
@@ -113,15 +126,16 @@ li {
   backdrop-filter: blur(0.1rem);
 }
 
-.title-container {
-  height: 45vh;
-  flex-direction: column;
-  justify-content: center;
-  gap: 12px;
-}
-
 .left-card-content {
   flex: 2;
+}
+
+.left-card-content > h3 {
+  font-size: 1.1rem;
+}
+
+.left-card-content > p {
+  font-size: 0.9rem;
 }
 
 .right-card-content {
@@ -142,6 +156,10 @@ li {
   gap: 24px;
   padding: 2rem 5rem;
   background: var(--bg-color);
+}
+
+.calendar-container > h3 {
+  font-size: 1.5rem;
 }
 
 .event-container {
