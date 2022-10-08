@@ -28,7 +28,7 @@ export default function Calendar() {
         dayOfWeek: "Sunday",
       },
       {
-        key: 49,
+        key: 9,
         title: "Finally Another Yet Another Event",
         info: "Yet Another event yet again",
         dayOfMonth: 30,

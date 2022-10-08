@@ -9,7 +9,7 @@
 
 :root {
   --alt-bg-color: #1a2222;
-  --bg-color: #1f7594;
+  --bg-color: #357d7b;
   --fg-color: #f2f4f5;
 }
 
@@ -51,19 +51,21 @@ li {
 
 .header {
   position: sticky;
-  z-index: 10;
   width: auto;
+  z-index: 10;
   top: 0;
   left: 0;
+  padding: 0.5rem 2rem;
+  justify-content: space-between;
   align-items: center;
-  gap: 84px;
-  padding: 0.5rem 1.25rem;
   color: var(--fg-color);
   background: var(--bg-color);
   box-shadow: 0 2px 5px #4a5951;
+  gap: 3rem;
 }
 
 .navbar {
+  flex: 2;
   gap: 0.5rem;
 }
 
@@ -83,7 +85,7 @@ li {
   border-radius: 5px;
 }
 
-.head-main-container {
+.webpage-title-container {
   display: flex;
   padding: 0 50px;
   justify-content: center;
@@ -91,7 +93,7 @@ li {
 }
 
 @media (max-width: 600px) {
-  .head-main-container {
+  .webpage-title-container {
     backdrop-filter: blur(0.2rem);
     box-sizing: border-box;
   }
