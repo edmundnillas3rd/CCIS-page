@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <ul className="flex-container navbar">
       <li>
@@ -15,6 +15,4 @@ const Navbar = () => {
       </li>
     </ul>
   );
-};
-
-export default Navbar;
+}
