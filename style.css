@@ -79,7 +79,7 @@ li {
   border-radius: 5px;
 }
 
-.head-main-content {
+.head-main-container {
   display: flex;
   padding: 0 50px;
   justify-content: center;
@@ -87,7 +87,7 @@ li {
 }
 
 @media (max-width: 600px) {
-  .head-main-content {
+  .head-main-container {
     backdrop-filter: blur(0.2rem);
     box-sizing: border-box;
   }
@@ -125,7 +125,7 @@ li {
   font-size: 2rem;
 }
 
-.calendar {
+.calendar-container {
   color: var(--fg-color);
   flex-direction: column;
   align-items: center;
@@ -139,7 +139,7 @@ li {
   gap: 24px;
 }
 
-.announcement-content {
+.announcement-container {
   background: var(--alt-bg-color);
   color: var(--fg-color);
   flex-direction: column;
