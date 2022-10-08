@@ -1,9 +1,8 @@
-export default function Card({ title, info, dayOfMonth, dayOfWeek }) {
+export default function Card({ title, dayOfMonth, dayOfWeek }) {
   return (
     <div className="flex-container card-container">
       <div className="flex-container title-container left-card-content">
         <h3>{title}</h3>
-        <p>{info}</p>
       </div>
       <div className="vl"></div>
       <div className="flex-container title-container right-card-content">

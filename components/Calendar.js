@@ -9,28 +9,24 @@ export default function Calendar() {
       {
         key: 24,
         title: "CCIS Acquiantance Party",
-        info: "Acquiantance and Cosplay Event",
         dayOfMonth: 7,
         dayOfWeek: "Friday",
       },
       {
         key: 36,
         title: "Yet Another Event",
-        info: "Cause one is never enoughh",
         dayOfMonth: 19,
         dayOfWeek: "Thursday",
       },
       {
         key: 49,
         title: "Another Yet Another Event",
-        info: "Another event yet again",
         dayOfMonth: 27,
         dayOfWeek: "Sunday",
       },
       {
         key: 9,
         title: "Finally Another Yet Another Event",
-        info: "Yet Another event yet again",
         dayOfMonth: 30,
         dayOfWeek: "Monday",
       },
@@ -45,7 +41,6 @@ export default function Calendar() {
             <Card
               key={e.key}
               title={e.title}
-              info={e.info}
               dayOfMonth={e.dayOfMonth}
               dayOfWeek={e.dayOfWeek}
             />
