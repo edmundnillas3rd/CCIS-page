@@ -4,7 +4,7 @@ import Calendar from "../components/Calendar";
 
 export default function Home() {
   return (
-    <div className="home">
+    <>
       <Background>
         <div className="flex-container title-container webpage-title-container">
           <h3>Cor Jesu College of Digos City</h3>
@@ -14,6 +14,6 @@ export default function Home() {
       </Background>
       <Calendar />
       <Announcements />
-    </div>
+    </>
   );
 }
