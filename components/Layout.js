@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "./Navbar";
-import logo from "../public/images/ccis-logo.png";
 
 export default function Layout({ children }) {
   return (
@@ -32,7 +31,12 @@ export default function Layout({ children }) {
       <header className="flex-container header">
         <Link href="/">
           <a>
-            <Image src={logo} alt="ccis-logo" width={48} height={48} />
+            <Image
+              src="/images/ccis-logo.png"
+              alt="ccis-logo"
+              width={48}
+              height={48}
+            />
           </a>
         </Link>
         <Navbar />

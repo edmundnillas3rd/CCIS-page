@@ -201,3 +201,43 @@ li {
 .post-link:hover > * {
   color: var(--bg-color);
 }
+
+.about {
+  padding: 24px 0;
+  color: var(--fg-color);
+  background-color: var(--alt-bg-color);
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 700px;
+}
+
+.about-container > h3 {
+  font-size: 1.2rem;
+}
+
+.about-container > hr {
+  width: 55%;
+}
+
+.members-container {
+  flex-direction: column;
+  gap: 18px;
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+.profile-container {
+  gap: 24px;
+  align-items: center;
+}
+
+.personal-information-container {
+  flex-direction: column;
+}
