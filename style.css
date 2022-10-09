@@ -176,6 +176,10 @@ li {
   gap: 24px;
 }
 
+.announcement-container > h3 {
+  font-size: 1.5rem;
+}
+
 .post-list-container {
   gap: 64px;
   flex-flow: row wrap;
@@ -183,13 +187,17 @@ li {
 }
 
 .post {
+  flex-direction: column;
+  gap: 12px;
   min-width: 200px;
   max-width: 250px;
-  border: 1px solid var(--fg-color);
-  border-radius: 10px;
-  padding: 1rem 1.5rem;
 }
 
-.post:hover > * {
+.post-info-container {
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.post-link:hover > * {
   color: var(--bg-color);
 }
