@@ -13,6 +13,10 @@
   --fg-color: #f2f4f5;
 }
 
+body {
+  background-color: var(--alt-bg-color);
+}
+
 a,
 a:link,
 a:visited,
@@ -168,7 +172,6 @@ li {
 }
 
 .announcement-container {
-  background: var(--alt-bg-color);
   color: var(--fg-color);
   flex-direction: column;
   align-items: center;
@@ -205,7 +208,7 @@ li {
 .about {
   padding: 24px 0;
   color: var(--fg-color);
-  background-color: var(--alt-bg-color);
+  /* background-color: var(--alt-bg-color); */
   flex-direction: column;
   align-items: center;
   height: 100vh;
@@ -215,7 +218,9 @@ li {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  max-width: 700px;
+  padding: 0 1.2rem;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 .about-container > h3 {
@@ -229,15 +234,23 @@ li {
 .members-container {
   flex-direction: column;
   gap: 18px;
-  padding: 2rem 0;
+  padding: 2rem 1.2rem;
   justify-content: center;
+  min-width: 270px;
+  max-width: 400px;
 }
 
 .profile-container {
   gap: 24px;
   align-items: center;
+  min-width: 150px;
+  max-width: 400px;
+  width: 300px;
 }
 
 .personal-information-container {
   flex-direction: column;
+  min-width: 150px;
+  max-width: 250px;
+  width: 240px;
 }
